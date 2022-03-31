@@ -1,0 +1,10 @@
+{
+  "extends": "@quantum-sec/typescript-config",
+  "compilerOptions": {
+    "rootDir": ".",
+    "resolveJsonModule": true,
+    "types": ["node"],
+    "lib": ["DOM", "ES2019"]
+  },
+  "include": [".tools/**/*"]
+}
