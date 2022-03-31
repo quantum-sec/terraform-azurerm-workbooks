@@ -13,8 +13,7 @@ module "sentinel_workbooks" {
   for_each = local.files
 
   content_path_workbooks = local.root_dir
-  parameters_override = {
-    workbookSourceId    = var.workbook_source_id
-    workbookDisplayName = replace(basename(each.value), ".json", "")
-  }
+  workbook_source_id = var.workbook_source_id
+  name = replace(basename(each.value), ".json", "")
+  resource_group_name = var.resource_group_name
 }
