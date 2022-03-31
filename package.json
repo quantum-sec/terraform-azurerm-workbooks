@@ -5,7 +5,7 @@
   "description": "Contains modules for deploying azure workbooks.",
   "repository": {
     "type": "git",
-    "url": "git@github.com:quantum-sec/template-terraform-package.git"
+    "url": "git@github.com:quantum-sec/terraform-azure-workbooks.git"
   },
   "author": "Quantum Security Pte. Ltd.",
   "license": "Apache-2.0"

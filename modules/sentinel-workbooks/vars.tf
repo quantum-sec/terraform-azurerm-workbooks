@@ -16,3 +16,8 @@ variable "content_path_workbooks" {
   type        = string
   default     = ""
 }
+
+variable "resource_group_name" {
+  description = "The name of the resource group in which this resource will be provisioned."
+  type        = string
+}
