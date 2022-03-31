@@ -33,7 +33,7 @@
     "workbookContent": {
       "type": "string",
       "metadata": {
-        "description": "The unique guid for this workbook instance"
+        "description": "JSON definition of the workbook to be deployed"
       }
     }
   },
