@@ -10,6 +10,7 @@ variable "resource_group_name" {
 variable "name" {
   description = "The name of the workbook that will be deployed in Microsoft Sentinel."
   type        = string
+  default     = "Quantum-Workbook"
 }
 
 variable "workbook_source_id" {
