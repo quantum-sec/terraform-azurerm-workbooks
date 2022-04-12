@@ -13,7 +13,7 @@ module "sentinel_workbook" {
   name                = var.name
   resource_group_name = var.resource_group_name
   deployment_mode     = "Incremental"
-  arm_script          = file("./azuredeploy.json")
+  arm_script          = file("${path.module}/azuredeploy.json")
 
   parameters_override = {
     workbookType        = "sentinel"
