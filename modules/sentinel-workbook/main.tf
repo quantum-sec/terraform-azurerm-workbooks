@@ -4,7 +4,7 @@ terraform {
 
 locals {
   root_dir         = coalesce(var.content_path_workbooks, "${path.module}/../../content/workbooks")
-  workbook_content = file("${path.root_dir}/${var.name}.json")
+  workbook_content = file("${local.root_dir}/${var.name}.json")
 }
 
 module "sentinel_workbook" {
