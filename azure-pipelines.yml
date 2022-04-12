@@ -22,6 +22,7 @@ jobs:
     parameters:
       containerImage: quantumci.azurecr.io/quantum-ci-terragrunt:latest
       runFunctionalTests: false
+      runFunctionalTests: false
       buildSteps:
         - script: npm run build
           name: RunTsc
