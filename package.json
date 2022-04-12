@@ -11,7 +11,9 @@
   "scripts": {
     "clean": "rm -rf ./dist/",
     "import": "npm run build",
-    "build": "npm run clean && tsc --build",
+    "prebuild": "npm run clean",
+    "build": "tsc --build",
+    "postbuild": "npm run pack",
     "pack": "node dist/.tools/pack.js",
     "lint": "eslint .tools --ext .ts"
   },
