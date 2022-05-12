@@ -9,7 +9,7 @@
 
 | Name | Source | Version |
 |------|--------|---------|
-| <a name="module_sentinel_workbook"></a> [sentinel\_workbook](#module\_sentinel\_workbook) | git::git@github.com:quantum-sec/package-azure.git//modules/azure-arm-deployment | 1.4.4 |
+| <a name="module_sentinel_workbook"></a> [sentinel\_workbook](#module\_sentinel\_workbook) | git::git@github.com:quantum-sec/package-azure.git//modules/azure-arm-deployment | 1.5.1 |
 
 ## Inputs
 

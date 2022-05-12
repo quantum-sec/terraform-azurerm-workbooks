@@ -8,7 +8,7 @@ locals {
 }
 
 module "sentinel_workbook" {
-  source = "git::git@github.com:quantum-sec/package-azure.git//modules/azure-arm-deployment?ref=1.4.4"
+  source = "git::git@github.com:quantum-sec/package-azure.git//modules/azure-arm-deployment?ref=1.5.1"
 
   name                = var.name
   resource_group_name = var.resource_group_name
