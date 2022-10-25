@@ -9,6 +9,7 @@
 
 | Name | Source | Version |
 |------|--------|---------|
+| <a name="module_custom_sentinel_workbooks"></a> [custom\_sentinel\_workbooks](#module\_custom\_sentinel\_workbooks) | ../sentinel-workbook | n/a |
 | <a name="module_sentinel_workbooks"></a> [sentinel\_workbooks](#module\_sentinel\_workbooks) | ../sentinel-workbook | n/a |
 
 ## Inputs
