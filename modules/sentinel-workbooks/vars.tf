@@ -7,17 +7,25 @@ variable "workbook_source_id" {
   type        = string
 }
 
-variable "content_path_workbooks" {
-  description = <<-EOT
-  The path to the workbooks directory.
-  Default empty value will used pre-packaged workbooks.
-  If you have packs in /opt/xdr/content/workbooks then you may want to provide a value of "/opt/xdr/content/workbooks"
-  EOT
-  type        = string
-  default     = ""
-}
-
 variable "resource_group_name" {
   description = "The name of the resource group in which this resource will be provisioned."
   type        = string
+}
+
+variable "default_workbooks" {
+  type        = set(string)
+  default     = []
+  description = "A list of default workbooks to be deployed."
+}
+
+variable "custom_workbooks" {
+  type        = set(string)
+  default     = []
+  description = "A list of custom workbooks to be deployed from the custom-workbooks folder."
+}
+
+variable "custom_workbook_path" {
+  description = "The path of the custom workbooks."
+  type        = string
+  default     = ""
 }
