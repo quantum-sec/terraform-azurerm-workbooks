@@ -4,7 +4,8 @@ terraform {
 
 locals {
   # deploy default workbooks
-  path_to_default_workbooks = "${path.module}/../../content/workbooks"
+  #path_to_default_workbooks = "${path.module}/../../content/workbooks"
+  path_to_default_workbooks = "./../content/workbooks"
 }
 
 # Deploy default workbooks

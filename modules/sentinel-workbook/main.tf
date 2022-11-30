@@ -1,5 +1,17 @@
 terraform {
   required_version = ">= 0.12.26"
+
+  required_providers {
+    null = {
+      source  = "hashicorp/null"
+      version = "~> 3.2.1"
+    }
+
+    template = {
+      source  = "hashicorp/template"
+      version = "~> 2.2.0"
+    }
+  }
 }
 
 locals {
@@ -16,8 +28,6 @@ locals {
 
   parameters_md5 = md5(jsonencode(local.parameters_override))
   template_md5   = md5(data.template_file.template.rendered)
-
-  workbook_content_md5 = md5(local.workbook_content)
 }
 
 data "template_file" "template" {
