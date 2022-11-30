@@ -1,6 +1,6 @@
 {
   "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentTemplate.json#",
-  "contentVersion": "1.0.0.0",
+  "contentVersion": "1.0.0.0-${parameters_md5}",
   "parameters": {
     "workbookDisplayName": {
       "type": "String",
@@ -35,6 +35,9 @@
       "metadata": {
         "description": "JSON definition of the workbook to be deployed"
       }
+    },
+    "parameters_md5": {
+      "type": "String"
     }
   },
   "resources": [

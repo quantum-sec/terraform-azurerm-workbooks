@@ -5,11 +5,25 @@
 |------|---------|
 | <a name="requirement_terraform"></a> [terraform](#requirement\_terraform) | >= 0.12.26 |
 
+## Providers
+
+| Name | Version |
+|------|---------|
+| <a name="provider_null"></a> [null](#provider\_null) | n/a |
+| <a name="provider_template"></a> [template](#provider\_template) | n/a |
+
 ## Modules
 
 | Name | Source | Version |
 |------|--------|---------|
 | <a name="module_sentinel_workbook"></a> [sentinel\_workbook](#module\_sentinel\_workbook) | git::git@github.com:quantum-sec/package-azure.git//modules/azure-arm-deployment | 1.5.1 |
+
+## Resources
+
+| Name | Type |
+|------|------|
+| [null_resource.parameters](https://registry.terraform.io/providers/hashicorp/null/latest/docs/resources/resource) | resource |
+| [template_file.template](https://registry.terraform.io/providers/hashicorp/template/latest/docs/data-sources/file) | data source |
 
 ## Inputs
 
