@@ -9,6 +9,15 @@ trigger:
 
 pr: none
 
+schedules:
+- cron: "0 11 1,15 * *"
+  displayName: Twice a month deploy (1st & 15th)
+  branches:
+    include:
+      - master
+      - main
+  always: true
+
 resources:
   repositories:
     - repository: pipeline-library
