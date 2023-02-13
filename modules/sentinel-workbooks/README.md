@@ -16,6 +16,7 @@
 
 | Name | Description | Type | Default | Required |
 |------|-------------|------|---------|:--------:|
+| <a name="input_default_workbook_path"></a> [default\_workbook\_path](#input\_default\_workbook\_path) | The path of the default workbooks. | `string` | n/a | yes |
 | <a name="input_resource_group_name"></a> [resource\_group\_name](#input\_resource\_group\_name) | The name of the resource group in which this resource will be provisioned. | `string` | n/a | yes |
 | <a name="input_workbook_source_id"></a> [workbook\_source\_id](#input\_workbook\_source\_id) | The resource id of log analytics workspace on which the workbook will be deployed. | `string` | n/a | yes |
 | <a name="input_custom_workbook_path"></a> [custom\_workbook\_path](#input\_custom\_workbook\_path) | The path of the custom workbooks. | `string` | `""` | no |

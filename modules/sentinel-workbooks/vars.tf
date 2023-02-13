@@ -29,3 +29,8 @@ variable "custom_workbook_path" {
   type        = string
   default     = ""
 }
+
+variable "default_workbook_path" {
+  description = "The path of the default workbooks."
+  type        = string
+}

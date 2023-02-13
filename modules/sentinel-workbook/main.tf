@@ -23,7 +23,7 @@ locals {
     workbookType        = "sentinel",
     workbookSourceId    = var.workbook_source_id,
     workbookDisplayName = var.name,
-    workbookContent     = local.workbook_content, # To be updated to the path of workbook content repo in future.
+    workbookContent     = local.workbook_content,
   })
 
   parameters_md5 = md5(jsonencode(local.parameters_override))
