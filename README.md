@@ -1,4 +1,4 @@
-# template-terraform-package
+# terraform-azurerm-workbooks
 
 ![Build Status][build_badge_image]
 [![GitHub tag (latest SemVer)][repository_tag_image]][repository_tag_link]
@@ -6,7 +6,7 @@
 [![License][license_badge_image]][license_badge_link]
 [![Maintained by quantum.security][maintained_badge_image]][maintained_badge_link]
 
-{{package_description}}
+This repository contains modules for deploying and managing Azure sentinel workbooks.
 
 # Documentation
 
