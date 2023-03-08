@@ -8,30 +8,5 @@
     "url": "git@github.com:quantum-sec/terraform-azurerm-workbooks.git"
   },
   "author": "Quantum Security Pte. Ltd.",
-  "scripts": {
-    "clean": "rm -rf ./dist/",
-    "import": "npm run build",
-    "prebuild": "npm run clean",
-    "build": "tsc --build",
-    "postbuild": "npm run pack",
-    "pack": "node dist/.tools/pack.js",
-    "lint": "eslint .tools --ext .ts"
-  },
-  "assets": [
-    {
-      "path": "dist/assets/content.tar.gz",
-      "name": "content.tar.gz",
-      "label": "Content"
-    }
-  ],
-  "license": "Apache-2.0",
-  "devDependencies": {
-    "@quantum-sec/typescript-config": "^1.0.12",
-    "@types/node": "^17.0.23"
-  },
-  "dependencies": {
-    "fs": "*",
-    "path": "^0.12.7",
-    "tar": "^6.1.11"
-  }
+  "license": "Apache-2.0"
 }
