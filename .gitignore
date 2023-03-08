@@ -25,3 +25,27 @@ out/
 node_modules
 *.keystore
 *.lic
+# Terraform
+.terraform
+.terraform.lock.hcl
+terraform.tfvars
+*.tfstate
+*.tfstate.backup
+provider.tf
+
+# OS X
+.history
+.DS_Store
+
+# IntelliJ
+.idea_modules
+*.iml
+*.iws
+*.ipr
+.idea/
+build/
+*/build/
+out/
+node_modules
+*.keystore
+*.lic
