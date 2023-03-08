@@ -11,8 +11,8 @@
 
 | Name | Version |
 |------|---------|
-| <a name="provider_null"></a> [null](#provider\_null) | ~> 3.2.1 |
-| <a name="provider_template"></a> [template](#provider\_template) | ~> 2.2.0 |
+| <a name="provider_null"></a> [null](#provider\_null) | 3.2.1 |
+| <a name="provider_template"></a> [template](#provider\_template) | 2.2.0 |
 
 ## Modules
 
@@ -31,10 +31,10 @@
 
 | Name | Description | Type | Default | Required |
 |------|-------------|------|---------|:--------:|
-| <a name="input_resource_group_name"></a> [resource\_group\_name](#input\_resource\_group\_name) | The name of the resource group in which this resource will be provisioned. | `string` | n/a | yes |
-| <a name="input_workbook_source_id"></a> [workbook\_source\_id](#input\_workbook\_source\_id) | The resource id of log analytics workspace on which the workbook will be deployed. | `string` | n/a | yes |
 | <a name="input_content_path_workbooks"></a> [content\_path\_workbooks](#input\_content\_path\_workbooks) | The path to the workbooks directory.<br>Default empty value will used pre-packaged workbooks.<br>If you have packs in /opt/xdr/content/workbooks then you may want to provide a value of "/opt/xdr/content/workbooks" | `string` | `""` | no |
 | <a name="input_name"></a> [name](#input\_name) | The name of the workbook that will be deployed in Microsoft Sentinel. | `string` | `"Quantum-Workbook"` | no |
+| <a name="input_resource_group_name"></a> [resource\_group\_name](#input\_resource\_group\_name) | The name of the resource group in which this resource will be provisioned. | `string` | n/a | yes |
+| <a name="input_workbook_source_id"></a> [workbook\_source\_id](#input\_workbook\_source\_id) | The resource id of log analytics workspace on which the workbook will be deployed. | `string` | n/a | yes |
 
 ## Outputs
 
