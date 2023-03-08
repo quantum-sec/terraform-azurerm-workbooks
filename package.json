@@ -1,11 +1,11 @@
 {
-  "name": "@quantum-sec/template-terraform-package",
+  "name": "@quantum-sec/terraform-azurerm-workbooks",
   "version": "0.0.0-development",
   "private": true,
   "description": "Contains modules for deploying azure workbooks.",
   "repository": {
     "type": "git",
-    "url": "git@github.com:quantum-sec/terraform-azure-workbooks.git"
+    "url": "git@github.com:quantum-sec/terraform-azurerm-workbooks.git"
   },
   "author": "Quantum Security Pte. Ltd.",
   "scripts": {
