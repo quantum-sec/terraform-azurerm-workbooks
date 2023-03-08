@@ -25,12 +25,10 @@ resources:
       endpoint: quantum-sec-github
       name: quantum-sec/pipeline-library
 
-
 jobs:
   - template: templates/jobs/default.yml@pipeline-library
     parameters:
       containerImage: quantumci.azurecr.io/quantum-ci-terragrunt:latest
-      runFunctionalTests: false
       runFunctionalTests: false
       buildSteps:
         - script: npm run build
