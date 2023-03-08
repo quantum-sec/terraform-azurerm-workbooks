@@ -3,7 +3,6 @@ trigger:
   branches:
     include:
       - master
-      - main
       - feature/*
       - fix/*
 
@@ -26,7 +25,7 @@ resources:
       name: quantum-sec/pipeline-library
 
 jobs:
-  - template: templates/jobs/default.yml@pipeline-library
+  - template: templates/jobs/terraform.yml@pipeline-library
     parameters:
       containerImage: quantumci.azurecr.io/quantum-ci-terragrunt:latest
       runFunctionalTests: false
