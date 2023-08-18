@@ -1,5 +1,17 @@
 terraform {
-  required_version = ">= 0.12.26"
+  required_version = ">= 1.2"
+
+  required_providers {
+    null = {
+      source  = "hashicorp/null"
+      version = "~> 3.2.1"
+    }
+
+    template = {
+      source  = "hashicorp/template"
+      version = "~> 2.2.0"
+    }
+  }
 }
 
 # Deploy default workbooks
